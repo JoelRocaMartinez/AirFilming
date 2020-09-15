@@ -12,14 +12,14 @@ import Services from "./components/Services";
 
 function App() {
   return (
-    <div> (
+    <div> 
       <NavBar/>
       <Airfilming/>
       <Services/>
       <Equipment/>
       <About/>
       <Contact/>
-    )
+    
     </div>
   );
 }
