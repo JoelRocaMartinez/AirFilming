@@ -10,8 +10,18 @@ function NavBar() {
 
     return (
         <div>
-        <a>hELLO</a>
-        <p>how are you</p>
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="mr-auto">
+                        <Nav.Link href="#Airfilming">AIRFILIMNG</Nav.Link>
+                        <Nav.Link href="#Services">SERVEIS</Nav.Link>
+                        <Nav.Link href="#Equipment">EQUIPAMENT</Nav.Link>
+                        <Nav.Link href="#About">QUI SOM</Nav.Link>
+                        <Nav.Link href="#Contact">CONTACTE</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>
         </div>
     )   
 }

@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Equipment from "./components/Equipment";
 import NavBar from "./components/NavBar";
 import Services from "./components/Services";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Equipment/>
       <About/>
       <Contact/>
+      <Footer/>
     
     </div>
   );
