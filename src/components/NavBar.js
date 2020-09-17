@@ -15,10 +15,10 @@ function NavBar() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link href="#Airfilming">AIRFILIMNG</Nav.Link>
-                        <Nav.Link href="#Services">SERVEIS</Nav.Link>
-                        <Nav.Link href="#Equipment">EQUIPAMENT</Nav.Link>
-                        <Nav.Link href="#About">QUI SOM</Nav.Link>
-                        <Nav.Link href="#Contact">CONTACTE</Nav.Link>
+                        <Nav.Link href="#Services">SERVICIOS</Nav.Link>
+                        <Nav.Link href="#Equipment">DRONES</Nav.Link>
+                        <Nav.Link href="#About">QUIÉNES SOMOS</Nav.Link>
+                        <Nav.Link href="#Contact">CONTACTO</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

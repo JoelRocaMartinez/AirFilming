@@ -8,22 +8,23 @@ function Equipment() {
 
     return (
         <div>
-        <h1>EQUIPAMENT</h1>
+        <h1>DRONES</h1>
         <hr></hr>
-        <p>A AirFilming comptem amb tota mena de solucions adaptables a cada client i projecte</p>
+        <p>En AirFilming contamos con todo tipo de soluciones adaptables a cada cliente y proyecto</p>
+
             <div>
                 <div>
-                    <p>Dron 1</p>
+                    <p>DJI MAVIC 2 PRO</p>
                     <p>hdskfhasohjdfopihsadighsadhgkashjdlghjöasldhjgikashdgh</p>  
                 </div>
 
                 <div>
-                    <p>Dron 2</p>
+                    <p>DJI MAVIC Mini</p>
                     <p>hdskfhasohjdfopihsadighsadhgkashjdlghjöasldhjgikashdgh</p>  
                 </div>
 
                 <div>
-                    <p>Dron 3</p>
+                    <p>IFLIGHT MEGABEE</p>
                     <p>hdskfhasohjdfopihsadighsadhgkashjdlghjöasldhjgikashdgh</p>  
                 </div>
             </div>
