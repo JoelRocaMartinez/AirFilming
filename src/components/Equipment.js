@@ -15,17 +15,18 @@ function Equipment() {
             <div>
                 <div>
                     <p>DJI MAVIC 2 PRO</p>
-                    <p>hdskfhasohjdfopihsadighsadhgkashjdlghjöasldhjgikashdgh</p>  
+                    <img src="./images/DJI_MAVIC_2_PRO.jpg" alt="DJI_Mavic_Pro" />
                 </div>
 
                 <div>
                     <p>DJI MAVIC Mini</p>
-                    <p>hdskfhasohjdfopihsadighsadhgkashjdlghjöasldhjgikashdgh</p>  
+                    <img src="./images/DJI_MAVIC_Mini.jpg" alt="DJI_Mavic_Mini" />
+                     
                 </div>
 
                 <div>
                     <p>IFLIGHT MEGABEE</p>
-                    <p>hdskfhasohjdfopihsadighsadhgkashjdlghjöasldhjgikashdgh</p>  
+                    <img src="./images/IFLIGHT_MEGABEE.jpg" alt="Megabee" /> 
                 </div>
             </div>
         </div>

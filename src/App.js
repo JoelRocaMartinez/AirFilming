@@ -6,7 +6,7 @@ import About from "./components/About";
 import Airfilming from "./components/Airfilming";
 import Contact from "./components/Contact";
 import Equipment from "./components/Equipment";
-import NavBar from "./components/NavBar";
+import MyNavBar from "./components/MyNavBar";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
 
@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div> 
-      <NavBar/>
+      <MyNavBar/>
       <Airfilming/>
       <Services/>
       <Equipment/>

@@ -1,0 +1,26 @@
+#services {
+    background-color: black;
+    color: white;
+}
+
+#services .title {
+    display: flex;
+    justify-content: center;
+}
+
+#services hr {
+    width: 20%;
+}
+
+#services .sections {
+    display: flex;
+    justify-content: space-around;
+}
+
+#services .section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+

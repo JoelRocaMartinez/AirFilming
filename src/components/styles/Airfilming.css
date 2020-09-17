@@ -1,0 +1,25 @@
+#airfilming {
+}
+
+#airfilming .title {
+    display: flex;
+    justify-content: center;
+}
+
+#airfilming hr {
+    width: 20%;
+}
+
+#airfilming .socialMedia {
+    display: flex;
+    justify-content: center;
+}
+
+#airfilming .logo {
+    padding: 10px;
+}
+
+
+
+
+
