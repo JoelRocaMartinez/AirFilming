@@ -4,12 +4,32 @@ import "./styles/About.css";
 
 function About() {
     return (
-        <div>
-            <h1>EL EQUIPO</h1>
-           
-            <p>Airfilming es una operadora de RPA en la zona de Catalunya. Compuesta actualmente por dos pilotos e ingenieros los cuales hemos querido dar un nuevo enfoque a nuestro futuro profesional.
-               Contamos con la aprobación de la Agencia Estatal de Seguridad Aérea (AESA) y trabajamos de manera ininterrumpida en las mejoras y la profesionalidad día a día. 
-               No dudes en mandarnos un correo o llamar os atenderemos con mucho gusto!</p>
+        <div id="about">
+            <div className="title">
+            <h2>EL EQUIPO</h2>
+            </div>
+
+            <div className="quote"> 
+            <p>Somos dos ingenieros que decidimos cambiar de rumbo profesional, para crear nuestra operadora de drones y hacer del hobby nuestro trabajo.</p>
+            </div>
+
+            <div className="team">
+                <div className="player">
+                    <img src="./images/Bernat.jpg" alt="Bernat Sanz" />
+                    <h3><strong>Bernat Martinez</strong></h3>
+                    <p>Piloto - Director de Operaciones</p>
+                    <p>Ingeniero Mecánico</p>
+                </div>
+
+                <div className="player">
+                    <img src="./images/Miguel.jpg" alt="Miguel de Arana" />
+                    <h3><strong>Miguel de Arana</strong></h3>
+                    <p>Piloto - Director Técnico</p>
+                    <p>Ingeniero de Telecomunicaciones</p>
+                </div>
+            </div>
+
+
         </div>
     )
 }
