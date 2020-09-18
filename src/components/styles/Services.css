@@ -1,9 +1,18 @@
 #services {
-    background-color: black;
-    color: white;
+    background-color: rgb(211, 211, 211);
+}
+
+#services h2 {
+    font-family: play;
+    font-size: 50px;  
+}
+
+#services h3 {
+    font-family: play;  
 }
 
 #services .title {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
 }
@@ -15,12 +24,33 @@
 #services .sections {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 100px;
 }
 
-#services .section {
+#services .section1 {
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    
+}
+
+#services .section2 {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#services .section3 {
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 
