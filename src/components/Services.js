@@ -9,7 +9,7 @@ function Services() {
         <div className="title">
           <h1>SERVICIOS</h1>
         </div>
-        <hr></hr>
+        
             <div className="sections">
                 <div className="section">
                     <h3>SEGUIMIENTO DE OBRAS</h3>

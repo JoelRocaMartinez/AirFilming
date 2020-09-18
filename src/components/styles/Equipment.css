@@ -1,0 +1,59 @@
+#drones {
+    background-image: url(/images/sky.jpg);
+}
+
+#drones h2 {
+    font-family: play;
+    font-size: 50px;  
+}
+
+#drones .title {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#drones .quote {
+    font-family: play;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+
+#drones .sections {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 150px;
+}
+
+#drones .section {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 5px 10px #444444 ;
+}
+
+#drones img {
+    width: 250px;
+}
+
+#drones .properties {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    align-items: flex-end;
+}
+
+#drones .type {
+    font-family: play;
+    padding-top: 20px;
+}
+

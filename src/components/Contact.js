@@ -8,7 +8,7 @@ function Contact() {
     return (
         <div>
         <h1>CONTACTO</h1>
-        <hr></hr>
+       
             <div>
                 <p>Director de operaciones</p>
                 <p>Bernat Martínez Sanz</p>

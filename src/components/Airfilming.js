@@ -12,7 +12,7 @@ function Airfilming() {
           <div className="title">
             <h1>AirFilming</h1> 
           </div> 
-          <hr></hr>   
+          
             <div className="socialMedia">
               <div className="logo">
                 <FacebookShareButton className="sharing-logo" url={"https:www.facebook.com"}><FacebookIcon size={50} /></FacebookShareButton>
