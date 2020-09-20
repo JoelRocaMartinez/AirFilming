@@ -28,8 +28,6 @@ function About() {
                     <p>Ingeniero de Telecomunicaciones</p>
                 </div>
             </div>
-
-
         </div>
     )
 }

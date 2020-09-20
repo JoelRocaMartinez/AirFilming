@@ -10,8 +10,14 @@ function Airfilming() {
     return (
         <div id="airfilming">
           <div className="title">
-            <h1>AirFilming</h1> 
+            <h2>AIRFILMING</h2> 
           </div> 
+
+          <div className="video">
+            <iframe className="videoproperties" width="1000" height="600"
+              src="https://www.youtube.com/embed/Paa7CdyhvWI">
+            </iframe>
+          </div>
           
             <div className="socialMedia">
               <div className="logo">
