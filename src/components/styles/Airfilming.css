@@ -23,13 +23,12 @@
 
 #airfilming .videoproperties {
     border: none;
-    
-
 }
 
 #airfilming .socialMedia {
     display: flex;
     justify-content: center;
+    padding-bottom: 40px;
 }
 
 #airfilming .logo {

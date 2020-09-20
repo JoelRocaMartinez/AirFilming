@@ -1,29 +1,18 @@
 import React from 'react';
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/Navbar";
-
-import {Link} from 'react-router-dom';
-
-import "./styles/NavBar.css";
+import "./styles/MyNavBar.css";
 
 
 function MyNavBar() {
 
     return (
-        <div>
-            <Navbar collapseOnSelect fixed="top" expand="lg" bg="dark" variant="dark">
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
-                        <Nav.Link href="#Airfilming">AIRFILIMNG</Nav.Link>
-                        <Nav.Link href="#Services">SERVICIOS</Nav.Link>
-                        <Nav.Link href="#Equipment">DRONES</Nav.Link>
-                        <Nav.Link href="#About">QUIÉNES SOMOS</Nav.Link>
-                        <Nav.Link href="#Contact">CONTACTO</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
+        <div id="myNavBar">
+            <div className="sections">
+                <a className="section" href="#section2">AirFilming</a>
+                <a className="section" href="#section2">Servicios</a>
+                <a className="section" href="#section2">Nuestra flota</a>
+                <a className="section" href="#section2">Quiénes Somos</a>
+                <a className="section" href="#section2">Contacto</a> 
+            </div>
         </div>
     )   
 }

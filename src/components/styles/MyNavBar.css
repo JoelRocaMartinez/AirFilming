@@ -1,0 +1,25 @@
+#myNavBar {
+    font-family: play;
+    background-color: black;
+    height: 75px;
+}
+
+#myNavBar .sections {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 25px 
+}
+
+#myNavBar .section {
+    text-decoration: none;   
+    color: white;
+}
+
+
+
+
+
+
+
+
