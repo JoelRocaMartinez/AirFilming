@@ -1,6 +1,7 @@
 #airfilming {
     background-image: url(/images/barcelona_air.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #airfilming h2 {

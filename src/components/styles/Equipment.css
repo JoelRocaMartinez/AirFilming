@@ -1,5 +1,7 @@
 #drones {
     background-image: url(/images/sky.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #drones h2 {
