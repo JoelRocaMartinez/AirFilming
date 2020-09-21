@@ -10,7 +10,7 @@
 }
 
 #drones .title {
-    padding-top: 50px;
+    padding-top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -24,7 +24,6 @@
     margin-bottom: 100px;
 }
 
-
 #drones .sections {
     display: flex;
     justify-content: space-evenly;
@@ -32,6 +31,7 @@
 }
 
 #drones .section {
+    transition: .5s;
     background-color: white;
     border-radius: 5px;
     padding-right: 50px;
@@ -41,6 +41,10 @@
     justify-content: center;
     text-align: center;
     box-shadow: 5px 5px 10px #444444 ;
+}
+
+#drones .section:hover {
+    transform: scale(1.05)
 }
 
 #drones img {

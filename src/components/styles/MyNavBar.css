@@ -1,7 +1,11 @@
 #myNavBar {
+    position: fixed;
     font-family: play;
     background-color: black;
     height: 75px;
+    width: 100%;
+    z-index: 99999;
+
 }
 
 #myNavBar .sections {
