@@ -52,14 +52,18 @@
     flex-direction: column;
 }
 
-
 #myCarousel {
-    background-color: rgba(255, 255, 255, 0.7);
-    max-width: 700px;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    
 }
 
 #myCarousel img {
-    width: 100px;
+    padding-top: 20px;
+    width: 300px;
+}
+
+#myCarousel .carousel-indicators {
+    list-style: none;
 }
 
