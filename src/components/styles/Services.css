@@ -5,10 +5,12 @@
 #services h2 {
     font-family: play;
     font-size: 50px;  
+    padding-bottom: 50px;
 }
 
 #services h3 {
     font-family: play;  
+    
 }
 
 #services .title {

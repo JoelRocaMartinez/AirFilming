@@ -16,7 +16,7 @@ function Airfilming() {
           </div> 
 
           <div className="video">
-            <iframe className="videoproperties" width="1000" height="600"
+            <iframe className="videoproperties" width="1000" height="650"
               src="https://www.youtube.com/embed/MXMnKCxTUgk">
             </iframe>
           </div>

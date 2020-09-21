@@ -17,7 +17,7 @@
 
 #drones .quote {
     font-family: play;
-    font-size: 16px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -33,7 +33,7 @@
 
 #drones .section {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     padding-right: 50px;
     padding-left: 50px;
     display: flex;
