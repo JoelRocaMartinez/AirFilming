@@ -50,7 +50,16 @@
     padding-right: 100px;
     display: flex;
     flex-direction: column;
-    
 }
 
+
+#myCarousel {
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 700px;
+    margin: auto;
+}
+
+#myCarousel img {
+    width: 100px;
+}
 
