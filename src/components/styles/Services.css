@@ -17,10 +17,6 @@
     justify-content: center;
 }
 
-#services hr {
-    width: 20%;
-}
-
 #services .sections {
     display: flex;
     justify-content: space-around;
@@ -45,12 +41,19 @@
 }
 
 #services .section3 {
-    padding-top: 200px;
+    padding-top: 225px;
     padding-left: 100px;
     padding-right: 100px;
     display: flex;
     flex-direction: column;
 }
+
+#services .pictures {
+    display: flex;
+    justify-content: center;
+}
+   
+
 
 #myCarousel {
     display: flex;
@@ -58,12 +61,18 @@
     
 }
 
+#myCarousel {
+    width: 350px;
+}
+
+
 #myCarousel img {
     padding-top: 20px;
-    width: 300px;
 }
 
 #myCarousel .carousel-indicators {
     list-style: none;
 }
+
+
 
