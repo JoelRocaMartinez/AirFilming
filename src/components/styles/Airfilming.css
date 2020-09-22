@@ -2,38 +2,37 @@
     background-image: url(/images/barcelona_air.jpg);
     background-size: cover;
     background-attachment: fixed;
-}
-
-#airfilming h2 {
-    font-family: play;
-    font-size: 50px;  
-}
-
-#airfilming .title {
-    padding-top: 100px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-#airfilming .video {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 50px;
+    height: 1000px;
 }
 
 #airfilming .videoproperties {
-    border: none;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
 }
 
 #airfilming .socialMedia {
+    background-color: black;
     display: flex;
-    justify-content: center;
-    padding-bottom: 40px;
+    justify-content: space-evenly; 
+    margin-top: 0;
+
 }
 
 #airfilming .logo {
     padding: 10px;
+}
+
+#airfilming .autorizados {
+    font-family: play;
+    font-size: 25px;
+    display: flex;
+    color: white;
+}
+
+#airfilming p {
+    padding-top: 15px;
+    padding-right: 30px;
 }
 
 
