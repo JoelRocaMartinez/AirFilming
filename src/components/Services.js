@@ -8,11 +8,10 @@ function Services() {
 
      return (
          <div id="services">
-         <div className="title">
-           <h2>SERVICIOS</h2>
-         </div>
+            <div className="title">
+            <h2>SERVICIOS</h2>
+            </div>
          
-        
              <div className="sections">
                  <div className="section1">
                      <h3>SEGUIMIENTO DE OBRAS</h3>

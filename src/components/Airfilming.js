@@ -1,5 +1,5 @@
 import React from 'react';
-import {FacebookShareButton, LinkedinShareButton, PinterestShareButton} from "react-share";
+import {FacebookShareButton, LinkedinShareButton} from "react-share";
 import {FacebookIcon, LinkedinIcon} from "react-share";
 import "./styles/Airfilming.css";
 
@@ -12,7 +12,7 @@ function Airfilming() {
     return (
         <div id="airfilming">
 
-            <iframe className="videoproperties" frameborder="0" height="100%" width="100%"
+            <iframe className="videoproperties" frameborder="0" width="100%" height="100%"
               src="https://www.youtube.com/embed/yP4SmqUxTy8?autoplay=1&mute=1">
             </iframe>
          
