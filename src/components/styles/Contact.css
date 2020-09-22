@@ -1,5 +1,5 @@
 #contact {
-    background-image: url(/images/sky.jpg);
+    background-image: url(/images/test.jpg);
     background-attachment: fixed;
     background-size: cover;
 
@@ -8,6 +8,7 @@
 #contact h2 {
     font-family: play;
     font-size: 50px;  
+    color: white;
 }
 
 #contact .title {
