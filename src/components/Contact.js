@@ -23,13 +23,15 @@ function Contact() {
                     <p>+34 671216775</p>
                 </div> 
 
+                <hr></hr>
+
                 <div className="socialMedia">
                     <div className="logo">
-                        <a href="https://www.instagram.com/airfilmingdrones/?hl=es" target="_blank"><img src="/images/instagram_logo.png" /></a>
+                        <a href="https://www.instagram.com/airfilmingdrones/?hl=es" target="_blank"><img className="insta" src="/images/instagram_logo.png" /></a>
                     </div>
 
                     <div className="logo">
-                        <a href="https://www.youtube.com/channel/UCcsq5rVeMrSL6DDu6YaxRMA" target="_blank"><img src="/images/youtube_logo.jpg" /></a>
+                        <a href="https://www.youtube.com/channel/UCcsq5rVeMrSL6DDu6YaxRMA" target="_blank"><img className="youtube" src="/images/youtube_logo.jpg" /></a>
                     </div>
 
                 </div>

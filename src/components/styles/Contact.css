@@ -63,8 +63,19 @@
     font-size: 18px;
 }
 
-#contact img {
-    width: 100px;
+#contact .youtube {
+    width: 50px;
+}
+
+#contact .insta {
+    width: 35px;
+}
+
+#contact hr {
+    height: 2px;
+    color: black;
+    width: 60%;
+
 }
 
 

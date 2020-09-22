@@ -11,7 +11,7 @@
 #airfilming .socialMedia {
     background-color: rgb(15, 15, 15);
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-around; 
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -21,6 +21,13 @@
 #airfilming .logo {
     padding: 10px;
 }
+
+#airfilming .logo2 {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+
 
 #airfilming .autorizados {
     font-family: play;
@@ -35,6 +42,26 @@
     padding-top: 10px;
     padding-right: 30px;
 }
+
+#airfilming .youtube {
+    width: 50px;
+    
+}
+
+#airfilming .insta {
+    width: 35px;
+}
+
+#airfilming .sharing {
+    display: flex;
+    font-family: play;
+    font-size: 25px;
+    align-content: center;
+    align-items: center;
+    color: white;
+}
+
+
 
 
 
