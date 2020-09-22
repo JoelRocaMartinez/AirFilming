@@ -1,6 +1,4 @@
 import React from 'react';
-import {FacebookShareButton, LinkedinShareButton} from "react-share";
-import {FacebookIcon, LinkedinIcon} from "react-share";
 import "./styles/Airfilming.css";
 
 
@@ -24,13 +22,13 @@ function Airfilming() {
                 <img src="/images/Gobierno.jpg" alt="gobierno"/>
               </div>
 
-              <div className="logo">
-                <FacebookShareButton className="sharing-logo" url={"https:www.facebook.com"}><FacebookIcon size={50} /></FacebookShareButton>
+              {/* <div className="logo">
+                  <a href="https://www.instagram.com/airfilmingdrones/?hl=es" target="_blank"><img src="/images/instagram_logo.png" /></a>
               </div>
 
               <div className="logo">
-                <LinkedinShareButton className="sharing-logo" url={"https:www.LinkedIn.com"}><LinkedinIcon size={50} /></LinkedinShareButton>
-              </div>
+                  <a href="https://www.youtube.com/channel/UCcsq5rVeMrSL6DDu6YaxRMA" target="_blank"><img src="/images/youtube_logo.jpg" /></a>
+              </div> */}
 
             </div>
         </div>

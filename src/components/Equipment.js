@@ -39,7 +39,7 @@ function Equipment() {
 
                 <div className="section">
                     <p className="type"><strong>IFLIGHT MEGABEE</strong></p>
-                    <img src="./images/IFLIGHT_MEGABEE.jpg" alt="Megabee" /> 
+                    <img src="./images/CineWhoop_FPV.jpg" alt="Megabee" /> 
                     <div className="properties">
                         <p className="description">Vídeos dinámicos</p>
                         <p className="description">Proyectos en Interior</p>

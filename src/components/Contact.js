@@ -1,6 +1,4 @@
 import React from 'react';
-import {FacebookShareButton, LinkedinShareButton, PinterestShareButton} from "react-share";
-import {FacebookIcon, LinkedinIcon, PinterestIcon} from "react-share";
 import "./styles/Contact.css";
 
 
@@ -27,11 +25,11 @@ function Contact() {
 
                 <div className="socialMedia">
                     <div className="logo">
-                        <FacebookShareButton className="sharing-logo" url={"https:www.facebook.com"}><FacebookIcon size={50} /></FacebookShareButton>
+                        <a href="https://www.instagram.com/airfilmingdrones/?hl=es" target="_blank"><img src="/images/instagram_logo.png" /></a>
                     </div>
 
                     <div className="logo">
-                        <LinkedinShareButton className="sharing-logo" url={"https:www.LinkedIn.com"}><LinkedinIcon size={50} /></LinkedinShareButton>
+                        <a href="https://www.youtube.com/channel/UCcsq5rVeMrSL6DDu6YaxRMA" target="_blank"><img src="/images/youtube_logo.jpg" /></a>
                     </div>
 
                 </div>

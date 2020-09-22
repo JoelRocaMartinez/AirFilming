@@ -31,7 +31,6 @@
     border-radius: 5px;
     padding-top: 50px;
    
-    
     display: flex;
     justify-content: center;
     text-align: center;
@@ -62,6 +61,10 @@
 #contact p {
     padding-top: 10px;
     font-size: 18px;
+}
+
+#contact img {
+    width: 100px;
 }
 
 
