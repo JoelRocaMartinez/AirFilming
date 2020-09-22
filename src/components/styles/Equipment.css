@@ -29,7 +29,7 @@
 #drones .sections {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 150px;
+    padding-bottom: 205px;
 }
 
 #drones .section {
@@ -42,7 +42,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    box-shadow: 5px 5px 10px #444444 ;
+    box-shadow: 5px 5px 10px black ;
 }
 
 #drones .section:hover {

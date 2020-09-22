@@ -34,9 +34,6 @@ function Contact() {
                         <LinkedinShareButton className="sharing-logo" url={"https:www.LinkedIn.com"}><LinkedinIcon size={50} /></LinkedinShareButton>
                     </div>
 
-                    <div className="logo">
-                        <PinterestShareButton className="sharing-logo" url={"https:www.Pinterest.es"}><PinterestIcon size={50} /></PinterestShareButton>  
-                    </div>
                 </div>
             </div>
 

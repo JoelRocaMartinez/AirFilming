@@ -26,7 +26,7 @@
 #about .team {
     display: flex;
     justify-content: center;
-    padding-bottom: 150px;
+    padding-bottom: 165px;
 }
 
 #about .player {
@@ -39,7 +39,7 @@
     justify-content: center;
     text-align: center;
     box-shadow: 5px 5px 10px #444444;
-    margin: 1%;
+    margin: 2%;
 }
 
 #about .player:hover {
