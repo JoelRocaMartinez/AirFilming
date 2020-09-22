@@ -9,12 +9,14 @@
 }
 
 #airfilming .socialMedia {
+    position: relative;
+    bottom: 6px;
     background-color: rgb(15, 15, 15);
     display: flex;
     justify-content: space-around; 
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     margin-top: 0
 }
 

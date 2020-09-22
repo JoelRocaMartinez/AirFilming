@@ -9,6 +9,7 @@
     font-family: play;
     font-size: 50px;  
     color: white;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -20,7 +21,7 @@
 }
 
 #contact .container {
-    padding-bottom: 260px; 
+    padding-bottom: 240px; 
 }
 
 #contact .information {
