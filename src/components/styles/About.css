@@ -7,6 +7,11 @@
     font-size: 50px;  
 }
 
+#about h3 {
+    padding-top: 15px;
+    
+}
+
 #about .title {
     padding-top: 100px;
     display: flex;
@@ -40,6 +45,7 @@
     text-align: center;
     box-shadow: 5px 5px 10px #444444;
     margin: 2%;
+    font-family: play;
 }
 
 #about .player:hover {
