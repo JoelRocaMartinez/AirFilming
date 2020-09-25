@@ -19,7 +19,7 @@ function Contact() {
                 </div>
 
                 <div className="info">
-                    <h3>Telefono de contacto</h3>
+                    <h3>Teléfono de contacto</h3>
                     <p>+34 671216775</p>
                 </div> 
 
@@ -32,6 +32,10 @@ function Contact() {
 
                     <div className="logo">
                         <a href="https://www.youtube.com/channel/UCcsq5rVeMrSL6DDu6YaxRMA" target="_blank"><img className="youtube" src="/images/youtube_logo.jpg" /></a>
+                    </div>
+
+                    <div className="logo">
+                    <a href="https://wa.me/+34671216775" target="_blank"><img className="whatsapp" src="/images/whatsapp_logo.jpg" /></a>
                     </div>
 
                 </div>

@@ -8,7 +8,7 @@ function MyNavBar() {
         <div id="myNavBar">
             <div className="sections">
                 <div className="primary">
-                  <a className="airfilming" href="#airfilming">AirFilming</a>
+                  <a className="airfilming" href="#airfilming">AIRFILMING</a>
                 </div>
 
                 <div className="rest">
