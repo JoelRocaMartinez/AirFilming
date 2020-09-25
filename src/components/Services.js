@@ -44,13 +44,10 @@ function Services() {
                         </div>
                  </div>
 
+                 <hr></hr>
+
                  <div className="section2">
-                    <div>
-                        <h3>FOTOGRAMETRIA</h3>
-                        <p>Los Drones permiten dar un nuevo enfoque a la generación de información de un terreno, de una forma más eficiente, rápida y precisa. Desde planos de curvas de nivel hasta generar un 3D detallado de la zona fotografiada.</p> 
-                    </div>
-                     
-                        <div className="pictures">
+                     <div className="pictures">
                             <Carousel id="myCarousel">
                                 <Carousel.Item>
                                         <img
@@ -75,12 +72,29 @@ function Services() {
                                 </Carousel.Item>
                             </Carousel> 
                         </div>
+                    <div>
+                        <h3>FOTOGRAMETRIA</h3>
+                        <ul>
+                            <li><strong>Nubes de puntos:</strong> Ingenieria forestal, Geologia, Minería, Arquelogía</li>
+                            <li><strong>Modelos 3D:</strong> Videojuegos, patrimonia digital, MAquetas 3D, Recreación de escenarios reales</li>
+                            <li><strong>Curvas de nivel:</strong> Cartografía, Topografía, Edificación, Medioambiental</li>
+                        </ul>
+                    </div>    
                  </div>
 
+                 <hr></hr>
+
                  <div className="section3">
-                     <h3>MARKETING EMPRESARIAL</h3>
-                     <p>¡Dale un nuevo punto de vista a tu proyecto con un vuelo dinámico y creativo, sin límites, tanto en interior como en exterior! 
-                        Hay muchas posibilidades: casas rurales, oficinas, gimnasios, bares, videoclips, deportes...</p> 
+                    <div>
+                        <h3>MARKETING EMPRESARIAL</h3>
+                        <ul>
+                            <li><strong>Eventos:</strong> Privados o Públicos</li>
+                            <li><strong>Empresas:</strong> Añade valor a tu negocio</li>
+                            <li><strong>Deportes:</strong> Haz que sientan el ritmo</li>
+                            <li><strong>Proyectos:</strong> Nos adaptamos a ti</li>
+                        </ul>
+                    </div>
+                    
                         <div className="pictures">
                             <Carousel id="myCarousel">
                                 <Carousel.Item>
