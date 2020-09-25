@@ -18,6 +18,8 @@
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
+    text-decoration: overline;
+    color: white;
 }
 
 #contact .container {
