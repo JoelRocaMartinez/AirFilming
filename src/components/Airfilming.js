@@ -10,7 +10,7 @@ function Airfilming() {
         <div id="airfilming">
 
             <iframe className="videoproperties" frameborder="0" width="100%" height="100%"
-              src="https://www.youtube.com/embed/yP4SmqUxTy8?autoplay=1&mute=1">
+              src="https://www.youtube.com/embed/yP4SmqUxTy8?autoplay=1&loop=1&mute=1">
             </iframe>
          
           
