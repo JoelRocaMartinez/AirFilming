@@ -17,8 +17,8 @@ function Airfilming() {
             <div className="socialMedia">
               <div className="autorizados">
                 <p><strong>Autorizados por</strong></p>
-                <img src="/images/AESA.jpg" alt="aesa"/>
-                <img src="/images/Gobierno.jpg" alt="gobierno"/>
+                <img className="aesa" src="/images/AESA.jpg" alt="aesa"/>
+                <img className="gobierno" src="/images/Gobierno.jpg" alt="gobierno"/>
               </div>
 
               <div className="sharing">

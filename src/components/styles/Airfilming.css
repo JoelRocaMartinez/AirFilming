@@ -14,10 +14,9 @@
     background-color: rgb(15, 15, 15);
     display: flex;
     justify-content: space-around; 
-    margin: auto;
+    flex-wrap: wrap;
     padding-top: 16px;
     padding-bottom: 16px;
-    margin-top: 0
 }
 
 #airfilming .logo {
@@ -30,11 +29,11 @@
 }
 
 
-
 #airfilming .autorizados {
     font-family: play;
     font-size: 25px;
     display: flex;
+    flex-wrap: wrap;
     align-content: center;
     align-items: center;
     color: white;
@@ -56,12 +55,14 @@
 
 #airfilming .sharing {
     display: flex;
+    flex-wrap: wrap;
     font-family: play;
     font-size: 25px;
     align-content: center;
     align-items: center;
     color: white;
 }
+
 
 
 
