@@ -46,10 +46,11 @@
     padding-left: 50px;
     display: flex;
     flex-direction: column;
+    text-align: center;
     justify-content: center;
     box-shadow: 5px 5px 10px black ;
     font-family: play;
-    margin-top: 50px
+    margin-bottom: 50px
 }
 
 #drones img:hover {

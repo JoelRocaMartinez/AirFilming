@@ -5,14 +5,12 @@
     height: 75px;
     width: 100%;
     z-index: 99999;
-
 }
 
 #myNavBar .sections {
     display: flex;
     padding-top: 13px; 
     align-items: baseline;
-
 }
 
 #myNavBar .section {
@@ -21,26 +19,25 @@
 }
 
 #myNavBar .airfilming {
-    font-size: 30px;;
+    font-size: 30px;
     text-decoration: none;   
     color: white;
 }
 
 #myNavBar .primary {
     padding-left: 10%;
-   
+    padding-right: 10%;
 }
 
 #myNavBar .rest {
     font-size: 18px;
     width: 100%;
     display: flex;
-    justify-content: flex-end;;
+    justify-content: flex-end;
 }
 
 #myNavBar a {
     padding-right: 10%;
-  
 }
 
 
