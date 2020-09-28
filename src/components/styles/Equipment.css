@@ -32,6 +32,7 @@
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 205px;
+    flex-wrap: wrap;
 }
 
 #drones .section {
@@ -45,6 +46,7 @@
     text-align: center;
     box-shadow: 5px 5px 10px black ;
     font-family: play;
+    margin-top: 20px
 }
 
 #drones img:hover {

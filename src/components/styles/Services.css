@@ -31,6 +31,7 @@
     padding-right: 100px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -46,6 +47,7 @@
     padding-right: 100px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -56,6 +58,7 @@
     padding-right: 100px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;

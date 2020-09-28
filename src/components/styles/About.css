@@ -32,6 +32,7 @@
 #about .team {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding-bottom: 165px;
 }
 
