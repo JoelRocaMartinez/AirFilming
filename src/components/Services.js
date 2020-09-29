@@ -75,9 +75,12 @@ function Services() {
                     <div>
                         <h3>FOTOGRAMETRIA</h3>
                         <ul>
-                            <li><strong>Nubes de puntos:</strong> Ingenieria forestal, Geologia, Minería, Arquelogía</li>
+                            {/* <li><strong>Nubes de puntos:</strong> Ingenieria forestal, Geologia, Minería, Arquelogía</li>
                             <li><strong>Modelos 3D:</strong> Videojuegos, patrimonia digital, Maquetas 3D, Recreación de escenarios reales</li>
-                            <li><strong>Curvas de nivel:</strong> Cartografía, Topografía, Edificación, Medioambiental</li>
+                            <li><strong>Curvas de nivel:</strong> Cartografía, Topografía, Edificación, Medioambiental</li> */}
+                            <li><strong>Nubes de puntos:</strong> Ingenieria forestal, Geologia, Minería</li>
+                            <li><strong>Modelos 3D:</strong> Videojuegos, patrimonia digital, Maquetas 3D</li>
+                            <li><strong>Curvas de nivel:</strong> Cartografía, Topografía, Edificación</li>
                         </ul>
                     </div>    
                  </div>
