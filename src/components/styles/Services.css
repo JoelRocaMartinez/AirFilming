@@ -27,8 +27,8 @@
 }
 
 #services .section1 {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -43,8 +43,8 @@
 }
 
 #services .section2 {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap-reverse;
@@ -58,8 +58,8 @@
 }
 
 #services .section3 {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;

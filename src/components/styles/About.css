@@ -28,8 +28,8 @@
     margin-top: 20px;
     margin-bottom: 10px;
     padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 #about .team {
@@ -50,6 +50,7 @@
     text-align: center;
     box-shadow: 5px 5px 10px #444444;
     margin: 2%;
+    margin-bottom: 50px;
     font-family: play;
 }
 

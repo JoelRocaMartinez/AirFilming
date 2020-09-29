@@ -50,8 +50,8 @@
     box-shadow: 5px 5px 10px black ;
     font-family: play;
     margin-bottom: 50px;
-    height: 517px;
-    width: 350px;
+    height: 450px;
+    width: 300px;
 }
 
 #drones img:hover {
@@ -65,13 +65,11 @@
 }
 
 #drones .propertiesPro {
-    padding-top: 20px;
     padding-bottom: 50px;
     
 }
 
 #drones .propertiesMini {
-    padding-top: 20px;
     padding-bottom: 50px;
     position: relative;
     top: 73px;
@@ -79,7 +77,6 @@
 }
 
 #drones .propertiesFpv {
-    padding-top: 20px;
     padding-bottom: 50px;
     position: relative;
     top: 9px;
@@ -88,19 +85,19 @@
 
 #drones .typePro{
     font-family: play;
-    padding-top: 20px;
+    padding-top: 75px;
 }
 
 #drones .typeMini{
     font-family: play;
-    padding-top: 20px;
+    padding-top: 75px;
     position: relative;
     bottom: 73px
 }
 
 #drones .typeFpv{
     font-family: play;
-    padding-top: 20px;
+    padding-top: 75px;
     position: relative;
     bottom: 9px;
 }
