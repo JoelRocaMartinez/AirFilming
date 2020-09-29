@@ -4,12 +4,12 @@
 
 #about h2 {
     font-family: play;
-    font-size: 50px;  
+    font-size: 50px;
 }
 
 #about h3 {
     padding-top: 15px;
-    
+
 }
 
 #about .title {
@@ -43,7 +43,7 @@
     transition: .5s;
     background-color: white;
     border-radius: 10px;
-    padding: 50px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -15,7 +15,10 @@ function Services() {
              <div className="sections">
                  <div className="section1">
                     <div>
-                        <h3>SEGUIMIENTO DE OBRAS</h3>
+                        <div className="fotogrametria">
+                          <h3>SEGUIMIENTO DE OBRAS</h3> 
+                        </div>
+                        
                         <ul>
                             <li>Mejor control</li>
                             <li>Menor riesgo</li>
@@ -73,14 +76,13 @@ function Services() {
                             </Carousel> 
                         </div>
                     <div>
-                        <h3>FOTOGRAMETRIA</h3>
+                        <div className="fotogrametria">
+                        <h3 >FOTOGRAMETRIA</h3>
+                        </div>
                         <ul>
-                            {/* <li><strong>Nubes de puntos:</strong> Ingenieria forestal, Geologia, Minería, Arquelogía</li>
+                            <li><strong>Nubes de puntos:</strong> Ingenieria forestal, Geologia, Minería, Arquelogía</li>
                             <li><strong>Modelos 3D:</strong> Videojuegos, patrimonia digital, Maquetas 3D, Recreación de escenarios reales</li>
-                            <li><strong>Curvas de nivel:</strong> Cartografía, Topografía, Edificación, Medioambiental</li> */}
-                            <li><strong>Nubes de puntos:</strong> Ingenieria forestal, Geologia, Minería</li>
-                            <li><strong>Modelos 3D:</strong> Videojuegos, patrimonia digital, Maquetas 3D</li>
-                            <li><strong>Curvas de nivel:</strong> Cartografía, Topografía, Edificación</li>
+                            <li><strong>Curvas de nivel:</strong> Cartografía, Topografía, Edificación, Medioambiental</li>
                         </ul>
                     </div>    
                  </div>
@@ -89,7 +91,9 @@ function Services() {
 
                  <div className="section3">
                     <div>
-                        <h3>MARKETING EMPRESARIAL</h3>
+                        <div className="fotogrametria">
+                          <h3>MARKETING EMPRESARIAL</h3>              
+                        </div>
                         <ul>
                             <li><strong>Eventos:</strong> Privados o Públicos</li>
                             <li><strong>Empresas:</strong> Añade valor a tu negocio</li>

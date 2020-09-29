@@ -14,6 +14,7 @@
     padding-top: 100px;
     display: flex;
     justify-content: center;
+    text-align: center;
     text-decoration: overline;
     color: white;
 }
@@ -42,15 +43,15 @@
 #drones .section {
     background-color: white;
     border-radius: 5px;
-    padding-right: 50px;
-    padding-left: 50px;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     box-shadow: 5px 5px 10px black ;
     font-family: play;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    height: 517px;
+    width: 350px;
 }
 
 #drones img:hover {
@@ -58,6 +59,7 @@
 }
 
 #drones img {
+    align-self: center;
     width: 250px;
     transition: .5s;
 }

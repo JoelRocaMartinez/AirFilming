@@ -53,6 +53,10 @@
     padding-bottom: 50px;
 }
 
+#services .fotogrametria {
+    text-align: center;
+}
+
 #services .section3 {
     padding-left: 100px;
     padding-right: 100px;
@@ -74,12 +78,9 @@
 }
 
 #myCarousel {
-    width: 600px;
-    height: 400px;
-}
-
-#myCarousel img {
-    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
 }
 
 #myCarousel .carousel-indicators {
