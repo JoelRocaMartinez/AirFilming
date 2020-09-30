@@ -1,4 +1,28 @@
 #myNavBar {
+    font-family: play;  
+    background-color: rgb(15, 15, 15);  
+}
+
+#myNavBar .desktop-navbar {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#myNavBar .airfilming {
+    font-size: 30px;
+}
+
+#myNavBar .mr-auto {
+    font-size: 18px;
+}
+
+#fakeitem{
+    display: block;
+    width: 60px;
+}
+
+/* #myNavBar {
     position: fixed;
     font-family: play;
     background-color: rgb(15, 15, 15);
@@ -8,10 +32,9 @@
     display: flex;
     align-content: center; 
     align-items: center;
+} */
 
-}
-
-#myNavBar .sections {
+/* #myNavBar .sections {
     display: flex;
     justify-content: space-evenly;
     align-content: center; 
@@ -30,7 +53,7 @@
 #myNavBar .section {
     text-decoration: none;   
     color: white;
-}
+} */
 
 /* #myNavBar .primary {
     padding-left: 10%;
