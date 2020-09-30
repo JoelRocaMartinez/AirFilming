@@ -13,10 +13,10 @@
     bottom: 6px;
     background-color: rgb(15, 15, 15);
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     flex-wrap: wrap;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 5px
+    
 }
 
 #airfilming .logo {
@@ -37,6 +37,7 @@
     align-content: center;
     align-items: center;
     color: white;
+    justify-content: center;
 }
 
 #airfilming p {
@@ -46,7 +47,7 @@
 
 #airfilming .youtube {
     width: 50px;
-    
+
 }
 
 #airfilming .insta {
@@ -55,6 +56,7 @@
 
 #airfilming .sharing {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     font-family: play;
     font-size: 25px;
