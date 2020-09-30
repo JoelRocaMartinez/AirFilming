@@ -5,7 +5,7 @@
 }
 
 #airfilming .videoproperties {
-    padding-top: 75px;
+    padding-top: 70px;
 }
 
 #airfilming .socialMedia {
@@ -25,7 +25,7 @@
 
 #airfilming .logo2 {
     padding: 10px;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 
@@ -42,7 +42,7 @@
 
 #airfilming p {
     padding-top: 10px;
-    padding-right: 30px;
+    padding-right: 15px;
 }
 
 #airfilming .youtube {
@@ -63,6 +63,7 @@
     align-content: center;
     align-items: center;
     color: white;
+    padding-left: 10px;
 }
 
 

@@ -10,7 +10,7 @@ function About() {
             </div>
 
             <div className="quote"> 
-            <p>Somos dos ingenieros que decidimos cambiar de rumbo profesional, para crear nuestra operadora de drones y hacer del hobby nuestro trabajo.</p>
+            <p>Somos dos ingenieros que decidimos cambiar de rumbo profesional, para crear nuestra operadora de drones y hacer del hobby nuestro trabajo</p>
             </div>
 
             <div className="team">
