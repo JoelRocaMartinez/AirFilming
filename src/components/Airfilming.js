@@ -24,11 +24,11 @@ function Airfilming() {
               <div className="sharing">
                 <p><strong>Encuéntranos en</strong></p>
                 <div className="logo">
-                    <a href="https://www.instagram.com/airfilmingdrones/?hl=es" target="_blank"><img className="insta" src="/images/instagram_logo.png" /></a>
+                    <a href="https://www.instagram.com/airfilmingdrones/?hl=es" target="_blank"><img className="insta" src="/images/instagram_logo.png" alt="instagram logo" /></a>
                 </div>
 
                 <div className="logo2">
-                    <a href="https://www.youtube.com/channel/UCcsq5rVeMrSL6DDu6YaxRMA" target="_blank"><img className="youtube" src="/images/youtube_logo.jpg" /></a>
+                    <a href="https://www.youtube.com/channel/UCcsq5rVeMrSL6DDu6YaxRMA" target="_blank"><img className="youtube" src="/images/youtube_logo.jpg" alt="youtube logo"  /></a>
                 </div>
               </div>
 
