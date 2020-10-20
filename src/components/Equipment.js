@@ -38,11 +38,21 @@ function Equipment() {
                 </div>
 
                 <div className="section">
-                    <p className="typeFpv"><strong>CINEWHOOP_FPV</strong></p>
+                    <p className="typeFpv"><strong>CINEWHOOP FPV</strong></p>
                     <img src="./images/CineWhoop_FPV.jpg" alt="Megabee" /> 
                     <div className="propertiesFpv">
                         <p className="description">Vídeos dinámicos</p>
                         <p className="description">Proyectos en Interior</p>
+                        <p className="description">Máxima creatividad y libertad</p>
+                    </div>
+                </div>
+
+                <div className="section">
+                    <p className="typePro"><strong>ARMATTAN CHAMELEON</strong></p>
+                    <img src="./images/Armattan_Chameleon.png" alt="Armattan_Chameleon" /> 
+                    <div className="propertiesPro">
+                        <p className="description">Vídeos dinámicos</p>
+                        <p className="description">Proyectos en Exterior</p>
                         <p className="description">Máxima creatividad y libertad</p>
                     </div>
                 </div>

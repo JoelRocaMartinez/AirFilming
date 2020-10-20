@@ -55,21 +55,21 @@ function Services() {
                                 <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="/images/fotometria1.png"
+                                        src="/images/fotometria1.jpg"
                                         alt="fotometria_pic1"
                                         />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="/images/fotometria2.png"
+                                        src="/images/fotometria2.jpg"
                                         alt="fotometria_pic2"
                                         />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="/images/fotometria3.png"
+                                        src="/images/fotometria3.jpg"
                                         alt="fotometria_pic3"
                                         />
                                 </Carousel.Item>
@@ -107,7 +107,7 @@ function Services() {
                                 <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="/images/marketing1.png"
+                                        src="/images/marketing1.jpg"
                                         alt="marketing_pic1"
                                         />
                                 </Carousel.Item>
