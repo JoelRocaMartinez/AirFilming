@@ -7,8 +7,9 @@ function Contact() {
 
     return (
         <div id="contact">
-         <div className="title">
-          <h2>CONTACTO</h2>
+
+        <div className="title">
+            <h2>CONTACTO</h2>
         </div>
 
         <div className="container">
@@ -41,6 +42,10 @@ function Contact() {
                 </div>
             </div>
 
+        </div>
+
+        <div className="generalitat">
+            <img className="iniciativa" src="/images/Iniciativa_Ocupacio_Juvenil.jpeg" alt="Iniciativa_Juvenil"/>
         </div>
 
             

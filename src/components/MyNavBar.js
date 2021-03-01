@@ -15,10 +15,10 @@ function MyNavBar() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto desktop-navbar">
-                            <Nav.Link href="#services">Servicios</Nav.Link>
-                            <Nav.Link href="#drones">Nuestra flota</Nav.Link>
-                            <Nav.Link href="#about">Quiénes Somos</Nav.Link>
-                            <Nav.Link href="#contact">Contacto</Nav.Link>
+                            <Nav.Link href="#services">SERVICIOS</Nav.Link>
+                            <Nav.Link href="#drones">NUESTRA FLOTA</Nav.Link>
+                            <Nav.Link href="#about">QUIÉNES SOMOS</Nav.Link>
+                            <Nav.Link href="#contact">CONTACTO</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
             </Navbar> 

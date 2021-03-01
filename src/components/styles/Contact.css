@@ -1,4 +1,5 @@
 #contact {
+    font-family: "Play";
     background-image: url(/images/test.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -25,7 +26,7 @@
 }
 
 #contact .container {
-    padding-bottom: 240px; 
+    padding-bottom: 200px; 
 }
 
 #contact .information {
@@ -86,7 +87,22 @@
     height: 2px;
     color: black;
     width: 60%;
+}
 
+#contact .generalitat {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    
+}
+
+#contact .iniciativa {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
 }
 
 
