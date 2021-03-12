@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import './App.css';
 
 //Components
@@ -12,17 +12,28 @@ import Footer from "./components/Footer";
 
 
 function App() {
+  let languageStoredInLocalStorage = localStorage.getItem("language");
+  const [language, setLanguage] = useState(languageStoredInLocalStorage ? languageStoredInLocalStorage : "Castellano"); 
+
   return (
     <div> 
-      <MyNavBar/>
+      <MyNavBar language={language}
+          handleSetLanguage={language => {
+          setLanguage(language);
+          storeLanguageInLocalStorage(language);
+        }}/>
       <Airfilming/>
-      <Services/>
-      <Equipment/>
-      <About/>
-      <Contact/>
-      <Footer/>
+      <Services language={language}/>
+      <Equipment language={language}/>
+      <About language={language}/>
+      <Contact language={language}/>
+      <Footer language={language}/>
     </div>
   );
+}
+
+function storeLanguageInLocalStorage(language) {
+  localStorage.setItem("language", language);
 }
 
 export default App;

@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPlayer from 'react-player';
 import "./styles/Airfilming.css";
 
 
@@ -9,12 +10,17 @@ function Airfilming() {
     return (
         <div id="airfilming">
 
-            <iframe className="videoproperties" frameborder="0" width="100%" height="100%"
-              src="https://www.youtube.com/embed/XqYg5e6mu9o?autoplay=1&loop=1&mute=1">
-            </iframe>
-         
+            <ReactPlayer
+              url="https://www.youtube.com/embed/XqYg5e6mu9o?autoplay=1&loop=1&mute=1"
+              loop= "true"
+              controls="true"
+              playing="true"
+              muted= "true"
+              width='100%'
+              height='100%'
+            />
           
-            <div className="socialMedia">
+            {/* <div className="socialMedia">
               <div className="autorizados">
                 <p><strong>Autorizados por</strong></p>
                 <img className="aesa" src="/images/AESA.jpg" alt="aesa"/>
@@ -32,7 +38,7 @@ function Airfilming() {
                 </div>
               </div>
 
-            </div>
+            </div> */}
         </div>
     )
 }
