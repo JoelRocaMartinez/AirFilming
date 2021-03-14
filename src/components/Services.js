@@ -52,47 +52,47 @@ function Services(props) {
             },
         },
         English: {
-            title: "SERVICIOS",
+            title: "SERVICES",
             section1: {
-                title: "SEGUIMIENTO DE OBRAS",
-                description1: "Mejor control",
-                description2: "Menor riesgo",  
-                description3: "Controla la evolución de tu proyecto"
+                title: "CONSTRUCTION MONITORING",
+                description1: "Better control",
+                description2: "Less risk",  
+                description3: "Control the progress of your project"
             },
             section2: {
-                title: "FOTOGRAMETRIA",
-                description1: "Nubes de puntos: Ingeniería forestal, Geología, Minería, Arqueología",
-                description2: "Modelos 3D: Videojuegos, patrimonio digital, Maquetas 3D, Recreación de escenarios reales",  
-                description3: "Curvas de nivel: Cartografía, Topografía, Edificación, Medioambiental"
+                title: "PHOTOGRAMMETRY",
+                description1: "Point Clouds: Forest Engineering, Geology, Mining, Archeology",
+                description2: "3D models: Videogames, digital heritage, 3D models, Recreation of real scenarios",  
+                description3: "Contour lines: Cartography, Topography, Building, Environmental"
             },
             section3: {
-                title: "MARKETING EMPRESARIAL",
-                description1: "Eventos: Privados o Públicos",
-                description2: "Empresas: Añade valor a tu negocio",  
-                description3: "Deportes: Haz que sientan el ritmo",
-                description4: "Proyectos: Nos adaptamos a ti"
+                title: "BUSINESS MARKETING",
+                description1: "Events: Private or Public",
+                description2: "Companies: Add value to your business",  
+                description3: "Sports: Make them feel the rhythm",
+                description4: "Projects: We adapt to you"
             },
         },
         Deutch: {
-            title: "SERVICIOS",
+            title: "DIENSTLEISTUNGEN",
             section1: {
-                title: "SEGUIMIENTO DE OBRAS",
-                description1: "Mejor control",
-                description2: "Menor riesgo",  
-                description3: "Controla la evolución de tu proyecto"
+                title: "ÜBERWACHUNG DER WERKE",
+                description1: "Bessere Kontrolle",
+                description2: "Geringeres Risiko", 
+                description3: "Kontrolliere die Entwicklung deines Projekts"
             },
             section2: {
-                title: "FOTOGRAMETRIA",
-                description1: "Nubes de puntos: Ingeniería forestal, Geología, Minería, Arqueología",
-                description2: "Modelos 3D: Videojuegos, patrimonio digital, Maquetas 3D, Recreación de escenarios reales",  
-                description3: "Curvas de nivel: Cartografía, Topografía, Edificación, Medioambiental"
+                title: "FOTOGRAMETRIE",
+                description1: "Punktwolken: Forsttechnik, Geologie, Bergbau, Archäologie",
+                description2: "3D-Modelle: Videospiele, digitales Erbe, 3D-Modelle, Nachbildung realer Szenarien",
+                description3: "Konturlinien: Kartographie, Topographie, Gebäude, Umwelt"
             },
             section3: {
-                title: "MARKETING EMPRESARIAL",
-                description1: "Eventos: Privados o Públicos",
-                description2: "Empresas: Añade valor a tu negocio",  
-                description3: "Deportes: Haz que sientan el ritmo",
-                description4: "Proyectos: Nos adaptamos a ti"
+                title: "BUSINESS MARKETING",
+                description1: "Ereignisse: privat oder öffentlich",
+                description2: "Unternehmen: Mehrwert für Ihr Unternehmen",
+                description3: "Sport: Lass sie den Rhythmus fühlen",
+                description4: "Projekte: Wir passen uns an Sie an"
             },
         }
     };

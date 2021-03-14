@@ -27,10 +27,10 @@ function MyNavBar(props) {
             contact: "CONTACT"
         },
         Deutch: {
-            services: "SERVEIS",
-            drones: "LA NOSTRA FLOTA",
-            about: "QUI SOM",
-            contact: "CONTACTE"
+            services: "DIENSTLEISTUNGEN",
+            drones: "UNSERE FLOTTE",
+            about: "WER WIR SIND",
+            contact: "KONTAKT"
         }
     };
 
