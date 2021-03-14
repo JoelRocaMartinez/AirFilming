@@ -28,6 +28,16 @@
     outline: none;
 }
 
+#myNavBar .custom-select {
+    font-family: "Play";
+    color: white;
+    width: auto;
+    border: none;
+    background-color: rgb(15, 15, 15);  
+    -webkit-appearance: none;
+    outline: 0;
+}
+
 
 
 

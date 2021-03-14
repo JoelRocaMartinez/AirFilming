@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 
 function App() {
   let languageStoredInLocalStorage = localStorage.getItem("language");
-  const [language, setLanguage] = useState(languageStoredInLocalStorage ? languageStoredInLocalStorage : "Castellano"); 
+  const [language, setLanguage] = useState(languageStoredInLocalStorage ? languageStoredInLocalStorage : "Spanish"); 
 
   return (
     <div> 

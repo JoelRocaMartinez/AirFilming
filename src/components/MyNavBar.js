@@ -8,25 +8,25 @@ import "./styles/MyNavBar.css";
 function MyNavBar(props) {
 
     let content = {
-        Català: {
+        CA: {
             services: "SERVEIS",
             drones: "LA NOSTRA FLOTA",
             about: "QUI SOM",
             contact: "CONTACTE"
         },
-        Castellano: {
+        ES: {
             services: "SERVICIOS",
             drones: "NUESTRA FLOTA",
             about: "QUIÉNES SOMOS",
             contact: "CONTACTO"
         },
-        English: {
+        EN: {
             services: "SERVICES",
             drones: "OUR FLEET",
             about: "WHO ARE WE",
             contact: "CONTACT"
         },
-        Deutch: {
+        DE: {
             services: "DIENSTLEISTUNGEN",
             drones: "UNSERE FLOTTE",
             about: "WER WIR SIND",
@@ -34,10 +34,10 @@ function MyNavBar(props) {
         }
     };
 
-    props.language === "Català" ? (content = content.Català)
-    : props.language === "Castellano" ? (content = content.Castellano)
-    : props.language === "English" ? (content = content.English)
-    : (content = content.Deutch);
+    props.language === "CA" ? (content = content.CA)
+    : props.language === "ES" ? (content = content.ES)
+    : props.language === "EN" ? (content = content.EN)
+    : (content = content.DE);
 
     return (
         <div>
@@ -56,10 +56,10 @@ function MyNavBar(props) {
                                 value={props.language}
                                 onChange={e => props.handleSetLanguage(e.target.value)}
                                 >
-                                <option value="Català">Català</option>
-                                <option value="Castellano">Castellano</option>
-                                <option value="English">English</option>
-                                <option value="Deutch">Deutch</option>
+                                <option value="CA">CA</option>
+                                <option value="ES">ES</option>
+                                <option value="EN">EN</option>
+                                <option value="DE">DE</option>
                             </select>
                         </Nav>
                     </Navbar.Collapse>

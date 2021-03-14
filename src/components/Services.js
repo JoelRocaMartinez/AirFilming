@@ -7,13 +7,13 @@ import "./styles/Services.css";
 function Services(props) {
 
     let content = {
-        Català: {
+        CA: {
             title: "SERVEIS",
             section1: {
                 title: "SEGUIMENT D´OBRES",
                 description1: "Millor control",
-                description2: "Menys risc",  
-                description3: "Controla l´evolució del teu projecta"
+                description2: "Menor risc",  
+                description3: "Controla l´evolució del teu projecte"
             },
             section2: {
                 title: "FOTOGRAMETRIA",
@@ -29,7 +29,7 @@ function Services(props) {
                 description4: "Projectes: Ens adaptem a tu"
             },
         },
-        Castellano: {
+        ES: {
             title: "SERVICIOS",
             section1: {
                 title: "SEGUIMIENTO DE OBRAS",
@@ -51,7 +51,7 @@ function Services(props) {
                 description4: "Proyectos: Nos adaptamos a ti"
             },
         },
-        English: {
+        EN: {
             title: "SERVICES",
             section1: {
                 title: "CONSTRUCTION MONITORING",
@@ -73,7 +73,7 @@ function Services(props) {
                 description4: "Projects: We adapt to you"
             },
         },
-        Deutch: {
+        DE: {
             title: "DIENSTLEISTUNGEN",
             section1: {
                 title: "ÜBERWACHUNG DER WERKE",
@@ -97,10 +97,10 @@ function Services(props) {
         }
     };
 
-    props.language === "Català" ? (content = content.Català)
-    : props.language === "Castellano" ? (content = content.Castellano)
-    : props.language === "English" ? (content = content.English)
-    : (content = content.Deutch);
+    props.language === "CA" ? (content = content.CA)
+    : props.language === "ES" ? (content = content.ES)
+    : props.language === "EN" ? (content = content.EN)
+    : (content = content.DE);
 
 
      return (
