@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.css";
 import "./styles/Services.css";
@@ -17,16 +18,37 @@ function Services(props) {
             },
             section2: {
                 title: "FOTOGRAMETRIA",
-                description1: "Nuvols de punts: Ingenieria forestal, Geologia, Mineria, Aqueologia",
-                description2: "Models en 3D: Videojocs, Patrimoni digital, Maquetes en 3D, Recreació d´escenaris reals",  
-                description3: "Corves de nivell: Cartografia, Topografia, Edificacions, Mediambiental"
+                description1: {
+                    part1: "Nuvols de punts:",
+                    part2: "Ingenieria forestal, Geologia, Mineria, Aqueologia"
+                },
+                description2: {
+                    part1: "Models en 3D:",
+                    part2:  "Videojocs, Patrimoni digital, Maquetes en 3D, Recreació d´escenaris reals"
+                },
+                description3: {
+                    part1: "Corves de nivell:",
+                    part2: "Cartografia, Topografia, Edificacions, Mediambiental"
+                }
             },
             section3: {
                 title: "MARKETING EMPRESARIAL",
-                description1: "Events: Privats o Publics",
-                description2: "Empreses: Afegeix valor al teu negoci",  
-                description3: "Esports: Fes que sentin el ritme",
-                description4: "Projectes: Ens adaptem a tu"
+                description1: {
+                    part1: "Events:",
+                    part2: "Privats o Publics"
+                },
+                description2: {
+                    part1: "Empreses:",
+                    part2: "Afegeix valor al teu negoci"
+                },
+                description3: {
+                    part1: "Esports:",
+                    part2: "Fes que sentin el ritme",
+                },
+                description4: {
+                    part1: "Projectes:",
+                    part2: "Ens adaptem a tu"
+                }
             },
         },
         ES: {
@@ -39,16 +61,37 @@ function Services(props) {
             },
             section2: {
                 title: "FOTOGRAMETRIA",
-                description1: "Nubes de puntos: Ingeniería forestal, Geología, Minería, Arqueología",
-                description2: "Modelos 3D: Videojuegos, patrimonio digital, Maquetas 3D, Recreación de escenarios reales",  
-                description3: "Curvas de nivel: Cartografía, Topografía, Edificación, Medioambiental"
+                description1: {
+                    part1: "Nubes de puntos:",
+                    part2:  "Ingeniería forestal, Geología, Minería, Arqueología"
+                },
+                description2: {
+                    part1: "Modelos 3D:",
+                    part2: "Videojuegos, patrimonio digital, Maquetas 3D, Recreación de escenarios reales"  
+                },
+                description3: {
+                    part1: "Curvas de nivel:",
+                    part2: "Cartografía, Topografía, Edificación, Medioambiental"
+                } 
             },
             section3: {
                 title: "MARKETING EMPRESARIAL",
-                description1: "Eventos: Privados o Públicos",
-                description2: "Empresas: Añade valor a tu negocio",  
-                description3: "Deportes: Haz que sientan el ritmo",
-                description4: "Proyectos: Nos adaptamos a ti"
+                description1: {
+                    part1: "Eventos",
+                    part2: "Privados o Públicos"
+                },
+                description2: {
+                    part1: "Empresas",
+                    part2: "Añade valor a tu negocio", 
+                }, 
+                description3: {
+                    part1: "Deportes",
+                    part2: "Haz que sientan el ritmo"
+                }, 
+                description4: {
+                    part1: "proyectos",
+                    part2: "Nos adaptamos a ti"
+                }
             },
         },
         EN: {
@@ -61,16 +104,37 @@ function Services(props) {
             },
             section2: {
                 title: "PHOTOGRAMMETRY",
-                description1: "Point Clouds: Forest Engineering, Geology, Mining, Archeology",
-                description2: "3D models: Videogames, digital heritage, 3D models, Recreation of real scenarios",  
-                description3: "Contour lines: Cartography, Topography, Building, Environmental"
+                description1: {
+                    part1: "Point Clouds:",
+                    part2: "Forest Engineering, Geology, Mining, Archeology"
+                }, 
+                description2: {
+                    part1: "3D Models:",
+                    part2: "Videogames, digital heritage, 3D models, Recreation of real scenarios"
+                }, 
+                description3: {
+                    part1: "Contour lines:",
+                    part2: "Cartography, Topography, Building, Environmental"
+                } 
             },
             section3: {
                 title: "BUSINESS MARKETING",
-                description1: "Events: Private or Public",
-                description2: "Companies: Add value to your business",  
-                description3: "Sports: Make them feel the rhythm",
-                description4: "Projects: We adapt to you"
+                description1: {
+                    part1: "Events:" ,
+                    part2: "Private or Public"
+                }, 
+                description2: {
+                    part1: "Companies:",
+                    part2: "Add value to your business"
+                }, 
+                description3: {
+                    part1: "Sports:" ,
+                    part2: "Make them feel the rythm"
+                },
+                description4: {
+                    part1: "Projects:",
+                    part2: "We adapt to you"
+                } 
             },
         },
         DE: {
@@ -83,16 +147,37 @@ function Services(props) {
             },
             section2: {
                 title: "FOTOGRAMETRIE",
-                description1: "Punktwolken: Forsttechnik, Geologie, Bergbau, Archäologie",
-                description2: "3D-Modelle: Videospiele, digitales Erbe, 3D-Modelle, Nachbildung realer Szenarien",
-                description3: "Konturlinien: Kartographie, Topographie, Gebäude, Umwelt"
+                description1: {
+                    part1: "Punktwolken:",
+                    part2: "Forsttechnik, Geologie, Bergbau, Archäologie"
+                },
+                description2: {
+                    part1: "3D-Modelle:",
+                    part2: "Videospiele, digitales Erbe, 3D-Modelle, Nachbildung realer Szenarien"
+                },
+                description3: {
+                    part1: "Konturlinien:",
+                    part2: "Kartographie, Topographie, Gebäude, Umwelt"
+                }
             },
             section3: {
                 title: "BUSINESS MARKETING",
-                description1: "Ereignisse: privat oder öffentlich",
-                description2: "Unternehmen: Mehrwert für Ihr Unternehmen",
-                description3: "Sport: Lass sie den Rhythmus fühlen",
-                description4: "Projekte: Wir passen uns an Sie an"
+                description1: {
+                    part1: "Ereignisse:",
+                    part2: "Privat oder Öffentlich"
+                },
+                description2: {
+                    part1: "Unternehmen:",
+                    part2: "Mehrwert für Ihr Unternehmen"
+                },
+                description3: {
+                    part1: "Sport:",
+                    part2: "Lass sie den Rhythmus fühlen"
+                },
+                description4: {
+                    part1: "Projekte:",
+                    part2: "Wir passen uns an Sie an"
+                }
             },
         }
     };
@@ -177,9 +262,9 @@ function Services(props) {
                         <h3 >{content.section2.title}</h3>
                         </div>
                         <ul>
-                            <li>{content.section2.description1}</li>
-                            <li>{content.section2.description2}</li>
-                            <li>{content.section2.description3}</li>
+                            <li><strong>{content.section2.description1.part1}</strong> {content.section2.description1.part2}</li>
+                            <li><strong>{content.section2.description2.part1}</strong> {content.section2.description2.part2}</li>
+                            <li><strong>{content.section2.description3.part1}</strong> {content.section2.description3.part2}</li>
                         </ul>
                     </div>    
                  </div>
@@ -192,10 +277,10 @@ function Services(props) {
                           <h3>{content.section3.title}</h3>              
                         </div>
                         <ul>
-                            <li>{content.section3.description1}</li>
-                            <li>{content.section3.description2}</li>
-                            <li>{content.section3.description3}</li>
-                            <li>{content.section3.description4}</li>
+                            <li><strong>{content.section3.description1.part1}</strong> {content.section3.description1.part2}</li>
+                            <li><strong>{content.section3.description2.part1}</strong> {content.section3.description2.part2}</li>
+                            <li><strong>{content.section3.description3.part1}</strong> {content.section3.description3.part2}</li>
+                            <li><strong>{content.section3.description4.part1}</strong> {content.section3.description4.part2}</li>
                         </ul>
                     </div>
                     
