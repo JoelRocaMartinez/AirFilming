@@ -26,9 +26,9 @@ function Contact(props) {
 
 
     props.language === "CA" ? (content = content.CA)
-    : props.language === "ES" ? (content = content.ES)
+    : props.language === "DE" ? (content = content.DE)
     : props.language === "EN" ? (content = content.EN)
-    : (content = content.DE);
+    : (content = content.ES);
 
     return (
         <div id="contact">

@@ -77,15 +77,15 @@ function Services(props) {
             section3: {
                 title: "MARKETING EMPRESARIAL",
                 description1: {
-                    part1: "Eventos",
+                    part1: "Eventos:",
                     part2: "Privados o Públicos"
                 },
                 description2: {
-                    part1: "Empresas",
+                    part1: "Empresas:",
                     part2: "Añade valor a tu negocio", 
                 }, 
                 description3: {
-                    part1: "Deportes",
+                    part1: "Deportes:",
                     part2: "Haz que sientan el ritmo"
                 }, 
                 description4: {
@@ -183,9 +183,9 @@ function Services(props) {
     };
 
     props.language === "CA" ? (content = content.CA)
-    : props.language === "ES" ? (content = content.ES)
+    : props.language === "DE" ? (content = content.DE)
     : props.language === "EN" ? (content = content.EN)
-    : (content = content.DE);
+    : (content = content.ES);
 
 
      return (

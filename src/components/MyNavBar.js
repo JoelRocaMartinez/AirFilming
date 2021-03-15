@@ -35,9 +35,9 @@ function MyNavBar(props) {
     };
 
     props.language === "CA" ? (content = content.CA)
-    : props.language === "ES" ? (content = content.ES)
+    : props.language === "DE" ? (content = content.DE)
     : props.language === "EN" ? (content = content.EN)
-    : (content = content.DE);
+    : (content = content.ES);
 
     return (
         <div>
@@ -56,8 +56,8 @@ function MyNavBar(props) {
                                 value={props.language}
                                 onChange={e => props.handleSetLanguage(e.target.value)}
                                 >
-                                <option value="CA">CA</option>
                                 <option value="ES">ES</option>
+                                <option value="CA">CA</option>
                                 <option value="EN">EN</option>
                                 <option value="DE">DE</option>
                             </select>
