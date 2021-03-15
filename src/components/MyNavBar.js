@@ -27,7 +27,7 @@ function MyNavBar(props) {
             contact: "CONTACT"
         },
         DE: {
-            services: "DIENSTLEISTUNGEN",
+            services: "LEISTUNGEN",
             drones: "UNSERE FLOTTE",
             about: "WER WIR SIND",
             contact: "KONTAKT"

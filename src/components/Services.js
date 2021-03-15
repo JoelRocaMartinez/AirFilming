@@ -74,7 +74,7 @@ function Services(props) {
             },
         },
         DE: {
-            title: "DIENSTLEISTUNGEN",
+            title: "LEISTUNGEN",
             section1: {
                 title: "ÜBERWACHUNG DER WERKE",
                 description1: "Bessere Kontrolle",

@@ -42,8 +42,15 @@
 }
 
 #myNavBar .custom-select:focus {
-    box-shadow: none!important;
+    box-shadow: none;
 }
+
+#myNavBar .custom-select:hover {
+    cursor: pointer;
+}
+
+
+
 
 
 
