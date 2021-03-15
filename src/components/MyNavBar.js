@@ -23,7 +23,7 @@ function MyNavBar(props) {
         EN: {
             services: "SERVICES",
             drones: "OUR FLEET",
-            about: "WHO ARE WE",
+            about: "ABOUT US",
             contact: "CONTACT"
         },
         DE: {
