@@ -3,13 +3,38 @@ import "./styles/Contact.css";
 
 
 
-function Contact() {
+function Contact(props) {
+
+    let content = {
+        CA: {
+            title: "CONTACTE",
+            telephone: "Telèfon de contacte",
+        },
+        ES: {
+            title: "CONTACTO",
+            telephone: "Teléfono de contacto",
+        },
+        EN: {
+            title: "CONTACT",
+            telephone: "Telephone contact",
+        },
+        DE: {
+            title: "KONTAKT",
+            telephone: "Telefonischer Kontakt",
+        }
+    };
+
+
+    props.language === "CA" ? (content = content.CA)
+    : props.language === "ES" ? (content = content.ES)
+    : props.language === "EN" ? (content = content.EN)
+    : (content = content.DE);
 
     return (
         <div id="contact">
 
         <div className="title">
-            <h2>CONTACTO</h2>
+            <h2>{content.title}</h2>
         </div>
 
         <div className="container">
@@ -20,7 +45,7 @@ function Contact() {
                 </div>
 
                 <div className="info">
-                    <h3>Teléfono de contacto</h3>
+                    <h3>{content.telephone}</h3>
                     <p>+34 671216775</p>
                 </div> 
 
@@ -46,6 +71,9 @@ function Contact() {
 
         <div className="generalitat">
             <img className="iniciativa" src="/images/Iniciativa_Ocupacio_Juvenil.jpeg" alt="Iniciativa_Juvenil"/>
+            <img className="iniciativa" src="/images/AESA.jpg" alt="AESA"/>
+            <img className="iniciativa" src="/images/Gobierno.jpg" alt="Gobierno"/>
+
         </div>
 
             
