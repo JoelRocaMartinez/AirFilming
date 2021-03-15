@@ -92,16 +92,30 @@
 #contact .generalitat {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
     padding-left: 5%;
     padding-right: 5%;
-    
-    
 }
 
 #contact .iniciativa {
     width: 100%;
-    max-width: 750px;
+    max-width: 600px;
+    padding: 2%;
+    height: auto;
+}
+
+#contact .aesa {
+    width: 100%;
+    max-width: 300px;
+    padding: 2%;
+    height: auto;
+}
+
+#contact .gobierno {
+    width: 100%;
+    max-width: 400px;
+    padding: 2%;
     height: auto;
 }
 

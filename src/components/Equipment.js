@@ -23,15 +23,15 @@ function Equipment(props) {
             },
             drone3: {
                 title: "CINEWHOOP FPV",
-                description1: "Vídeos dinámics",
+                description1: "Vídeos dinàmics",
                 description2: "Projectes en Interiors",
-                description3: "Máxima creativitat i llibertat"
+                description3: "Màxima creativitat i llibertat"
             },
             drone4: {
                 title: "ARMATTAN CHAMELEON",
-                description1: "Vídeos dinámics",
+                description1: "Vídeos dinàmics",
                 description2: "Projectes en Exteriors",
-                description3: "Máxima creativitat i llibertat"
+                description3: "Màxima creativitat i llibertat"
             },
         },
         ES: {
@@ -69,13 +69,13 @@ function Equipment(props) {
                 title: "DJI MAVIC 2 PRO",
                 description1: "Video and Photography",
                 description2: "Outdoor projects",
-                description3: "4K quality"
+                description3: "4K Quality"
             },
             drone2: {
                 title: "DJI MAVIC Mini",
                 description1: "Video and Photography",
                 description2: "Indoor porjects",
-                description3: "2,7K quality"
+                description3: "2,7K Quality"
             },
             drone3: {
                 title: "CINEWHOOP FPV",

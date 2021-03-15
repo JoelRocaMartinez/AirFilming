@@ -35,7 +35,7 @@ function Services(props) {
                 title: "MARKETING EMPRESARIAL",
                 description1: {
                     part1: "Events:",
-                    part2: "Privats o Publics"
+                    part2: "Privats o Públics"
                 },
                 description2: {
                     part1: "Empreses:",

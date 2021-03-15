@@ -71,9 +71,8 @@ function Contact(props) {
 
         <div className="generalitat">
             <img className="iniciativa" src="/images/Iniciativa_Ocupacio_Juvenil.jpeg" alt="Iniciativa_Juvenil"/>
-            <img className="iniciativa" src="/images/AESA.jpg" alt="AESA"/>
-            <img className="iniciativa" src="/images/Gobierno.jpg" alt="Gobierno"/>
-
+            <img className="aesa" src="/images/AESA.jpg" alt="AESA"/>
+            <img className="gobierno" src="/images/Gobierno.jpg" alt="Gobierno"/>
         </div>
 
             
