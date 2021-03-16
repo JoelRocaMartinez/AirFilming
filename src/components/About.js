@@ -37,7 +37,7 @@ function About(props) {
                 description2: "Mechanical Engineer"
             },
             pilot2: {
-                description1: "Piloto - Technical Manager",
+                description1: "Pilot - Technical Manager",
                 description2: "Telecommunications Engineer"
             }
         },
