@@ -20,7 +20,7 @@ function Services(props) {
                 title: "FOTOGRAMETRIA",
                 description1: {
                     part1: "Nuvols de punts:",
-                    part2: "Ingenieria forestal, Geologia, Mineria, Aqueologia"
+                    part2: "Eginyeria forestal, Geologia, Mineria, Aqueologia"
                 },
                 description2: {
                     part1: "Models en 3D:",
