@@ -1,4 +1,6 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1)
+                   and (max-width: 600px)
+                   and (min-resolution: 192dpi) {
     #contact {
         background-image: url(/images/test_small.jpg);
         background-position: center center;
@@ -9,10 +11,12 @@
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1)
+                   and (min-width: 600px)
+                   and (min-resolution: 192dpi) {
     #contact {
         background-image: url(/images/test_small.jpg);
-        background-position: center center;
+        background-position: center center; 
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -20,7 +24,9 @@
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1)
+                   and (min-width: 768px)
+                   and (min-resolution: 192dpi) {
     #contact {
         background-image: url(/images/test_middle.jpg);
         background-position: center center;
@@ -31,7 +37,9 @@
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1)
+                   and (min-width: 1200px)
+                   and (min-resolution: 192dpi) {
     #contact {
         background-image: url(/images/test.jpg);
         background-position: center center;
