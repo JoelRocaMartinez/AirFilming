@@ -61,33 +61,34 @@ function About(props) {
     : (content = content.ES);
 
 
-    return (
-        <div id="about">
-            <div className="title">
-            <h2>{content.title}</h2>
-            </div>
+     return (
+         <div id="about">
+             <div className="title">
+             <h2>{content.title}</h2>
+             </div>
 
-            <div className="quote"> 
-            <p>{content.quote}</p>
-            </div>
+             <div className="quote"> 
+             <p>{content.quote}</p>
+             </div>
 
-            <div className="team">
-                <div className="player">
-                    <img src="./images/Bernat.jpg" alt="Bernat Sanz" />
-                    <h3><strong>Bernat Martinez</strong></h3>
-                    <p>{content.pilot1.description1}</p>
-                    <p>{content.pilot1.description2}</p>
-                </div>
+             <div className="team">
+                 <div className="player">
+                     <img src="./images/Bernat.jpg" alt="Bernat Sanz" />
+                     <h3><strong>Bernat Martinez</strong></h3>
+                     <p>{content.pilot1.description1}</p>
+                     <p>{content.pilot1.description2}</p>
+                 </div>
 
-                <div className="player">
-                    <img src="./images/Miguel.jpg" alt="Miguel de Arana" />
-                    <h3><strong>Miguel de Arana</strong></h3>
-                    <p>{content.pilot2.description1}</p>
-                    <p>{content.pilot2.description2}</p>
-                </div>
-            </div>
-        </div>
-    )
+                 <div className="player">
+                     <img src="./images/Miguel.jpg" alt="Miguel de Arana" />
+                     <h3><strong>Miguel de Arana</strong></h3>
+                     <p>{content.pilot2.description1}</p>
+                     <p>{content.pilot2.description2}</p>
+                 </div>
+             </div>
+         </div>
+     )
+
 }
 
 export default About
