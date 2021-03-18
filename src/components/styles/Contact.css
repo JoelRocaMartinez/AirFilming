@@ -1,13 +1,38 @@
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-moz-min-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (min-device-pixel-ratio: 2),
-only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) {
+@media only screen and (max-width: 600px) {
     #contact {
-        font-family: "Play";
+        background-image: url(/images/test_small.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: black;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #contact {
+        background-image: url(/images/test_small.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: black;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #contact {
+        background-image: url(/images/test_middle.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: black;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #contact {
         background-image: url(/images/test.jpg);
         background-position: center center;
         background-repeat: no-repeat;
@@ -15,18 +40,10 @@ only screen and (min-resolution: 2dppx) {
         background-size: cover;
         background-color: black;
     }
-    
-    /* styles for Retina-type displays */
 }
 
 #contact {
     font-family: "Play";
-    background-image: url(/images/test.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: black;
 }
 
 #contact h2 {
