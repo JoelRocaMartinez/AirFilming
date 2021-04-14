@@ -12,13 +12,13 @@ function Equipment(props) {
             drone1: {
                 title: "DJI MAVIC Mini",
                 description1: "Vídeo i Fotografia",
-                description2: "Projectes en Exteriors",
+                description2: "Projectes en Interiors",
                 description3: "Qualitat 4K"
             },
             drone2: {
                 title: "DJI MAVIC 2 PRO",
                 description1: "Video i Fotografia",
-                description2: "Projectes en Interiors",
+                description2: "Projectes en Exteriors",
                 description3: "Qualitat 2,7K"
             },
             drone3: {
@@ -40,13 +40,13 @@ function Equipment(props) {
             drone1: {
                 title: "DJI MAVIC Mini",
                 description1: "Vídeo y Fotografía",
-                description2: "Proyectos en Exterior",
+                description2: "Proyectos en Interior",
                 description3: "Calidad 4K"
             },
             drone2: {
                 title: "DJI MAVIC 2 PRO",
                 description1: "Vídeo y Fotografía",
-                description2: "Proyectos en Interior",
+                description2: "Proyectos en Exterior",
                 description3: "Calidad 2,7K"
             },
             drone3: {
@@ -68,13 +68,13 @@ function Equipment(props) {
             drone1: {
                 title: "DJI MAVIC Mini",
                 description1: "Video and Photography",
-                description2: "Outdoor projects",
+                description2: "Indoor Porjects",
                 description3: "4K Quality"
             },
             drone2: {
                 title: "DJI MAVIC 2 PRO",
                 description1: "Video and Photography",
-                description2: "Indoor porjects",
+                description2: "Outdoor Projects",
                 description3: "2,7K Quality"
             },
             drone3: {
@@ -96,13 +96,13 @@ function Equipment(props) {
             drone1: {
                 title: "DJI MAVIC Mini",
                 description1: "Video und Fotografie",
-                description2: "Outdoor-Projekte",
+                description2: "Innenprojekte",
                 description3: "4K Qualität"
             },
             drone2: {
                 title: "DJI MAVIC 2 PRO",
                 description1: "Video und Fotografie",
-                description2: "Innenprojekte",
+                description2: "Outdoor-Projekte",
                 description3: "2.7K Qualität"
             },
             drone3: {
