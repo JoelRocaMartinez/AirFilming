@@ -53,15 +53,15 @@ function Contact(props) {
 
                 <div className="socialMedia">
                     <div className="logo">
-                        <a href="https://www.instagram.com/airfilmingdrones/?hl=es" target="_blank"><img className="insta" src="/images/instagram_logo.png" alt="instagram logo" /></a>
+                        <a href="https://www.instagram.com/airfilmingdrones/?hl=es"><img className="insta" src="/images/instagram_logo.png" alt="instagram logo" /></a>
                     </div>
 
                     <div className="logo">
-                        <a href="https://www.youtube.com/channel/UCcsq5rVeMrSL6DDu6YaxRMA" target="_blank"><img className="youtube" src="/images/youtube_logo.jpg" alt="youtube logo" /></a>
+                        <a href="https://www.youtube.com/channel/UCcsq5rVeMrSL6DDu6YaxRMA"><img className="youtube" src="/images/youtube_logo.jpg" alt="youtube logo" /></a>
                     </div>
 
                     <div className="logo">
-                         <a href="https://wa.me/+34671216775" target="_blank"><img className="whatsapp" src="/images/whatsapp_logo.jpg" alt="whatsapp logo" /></a>
+                         <a href="https://wa.me/+34671216775"><img className="whatsapp" src="/images/whatsapp_logo.jpg" alt="whatsapp logo" /></a>
                     </div>
 
                 </div>

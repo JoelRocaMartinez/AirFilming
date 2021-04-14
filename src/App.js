@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './App.css';
+import "bootstrap/dist/css/bootstrap.css";
 
 //Components
 import About from "./components/About";
@@ -12,18 +13,17 @@ import Footer from "./components/Footer";
 
 
 function App() {
+  
   let languageStoredInLocalStorage = localStorage.getItem("language");
   const [language, setLanguage] = useState(languageStoredInLocalStorage ? languageStoredInLocalStorage : "ES"); 
-
-  console.log(localStorage)
 
   return (
     <div> 
       <MyNavBar language={language}
-          handleSetLanguage={language => {
+          handleSetLanguage = {language => {
           setLanguage(language);
           storeLanguageInLocalStorage(language);
-        }}/>
+          }}/>
       <Airfilming/>
       <Services language={language}/>
       <Equipment language={language}/>

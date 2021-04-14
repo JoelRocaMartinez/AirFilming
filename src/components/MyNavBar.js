@@ -1,11 +1,13 @@
 import React from 'react';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import {Link} from 'react-scroll'
 import "bootstrap/dist/css/bootstrap.css";
 import "./styles/MyNavBar.css";
 
 
 function MyNavBar(props) {
+
 
     let content = {
         CA: {
@@ -39,13 +41,14 @@ function MyNavBar(props) {
     : props.language === "EN" ? (content = content.EN)
     : (content = content.ES);
 
+  
     return (
         <div>
             <Navbar collapseOnSelect id="myNavBar" expand="lg" fixed="top" variant="dark">
             <div id='fakeitem'></div>
-                <Navbar.Brand className="airfilming" href="#airfilming">AIRFILMING</Navbar.Brand>
+                <Link className="airfilming" to="airfilming" smooth={true} duration={1500}>AIRFILMING</Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
+                    <Navbar.Collapse id="responsive-navbar-nav" >
                         <Nav className="mr-auto desktop-navbar">
                             <Nav.Link href="#services">{content.services}</Nav.Link>
                             <Nav.Link href="#drones">{content.drones}</Nav.Link>

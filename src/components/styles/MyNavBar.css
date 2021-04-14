@@ -7,11 +7,26 @@
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    
 }
 
 #myNavBar .airfilming {
     font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#myNavBar .airfilming:hover {
+    cursor: pointer;
+}
+
+#myNavBar .links {
+    text-decoration: none;
+    color:grey;
+    cursor: pointer;
+}
+
+#myNavBar .links:hover, .links:active {
+    color: white;
 }
 
 #myNavBar .mr-auto {

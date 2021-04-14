@@ -12,10 +12,10 @@ function Airfilming() {
 
             <ReactPlayer
               url="https://www.youtube.com/embed/XqYg5e6mu9o?autoplay=1&loop=1&mute=1"
-              loop= "true"
-              controls="true"
-              playing="true"
-              muted= "true"
+              loop={true}
+              controls={true}
+              playing={true}
+              muted={true}
               width='100%'
               height='100%'
             />
