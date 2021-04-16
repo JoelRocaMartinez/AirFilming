@@ -139,7 +139,7 @@ function Services(props) {
         DE: {
             title: "LEISTUNGEN",
             section1: {
-                title: "ÜBERWACHUNG DER WERKE",
+                title: "ÜBERWACHUNG VON BAUSTELLEN",
                 description1: "Bessere Kontrolle",
                 description2: "Geringeres Risiko", 
                 description3: "Kontrolliere die Entwicklung deines Projekts"

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import {Link} from 'react-scroll'
@@ -8,6 +8,8 @@ import "./styles/MyNavBar.css";
 
 
 function MyNavBar(props) {
+
+    const [expanded, setExpanded] = useState(false);
 
 
     let content = {
@@ -45,16 +47,16 @@ function MyNavBar(props) {
   
     return (
         <div>
-            <Navbar collapseOnSelect id="myNavBar" expand="lg" fixed="top" variant="dark">
+            <Navbar expanded={expanded} id="myNavBar" expand="lg" fixed="top" variant="dark">
             <div id='fakeitem'></div>
                 <Link className="airfilming" to="airfilming" smooth={true} duration={1500}>AIRFILMING</Link>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" >
-                        <Nav collapseOnSelect className="mr-auto responsive-navbar">
-                            <Navbar.Toggle><Link to="services" smooth={true} duration={1500}>{content.services}</Link></Navbar.Toggle>
-                            <Navbar.Toggle><Link to="drones" smooth={true} duration={1500}>{content.drones}</Link></Navbar.Toggle>
-                            <Navbar.Toggle><Link to="about" smooth={true} duration={1500}>{content.about}</Link></Navbar.Toggle>
-                            <Navbar.Toggle><Link to="contact" smooth={true} duration={1500}>{content.contact}</Link></Navbar.Toggle>
+                        <Nav className="mr-auto responsive-navbar">
+                            <Navbar.Toggle><Link onClick={() => setExpanded(false)} to="services" smooth={true} duration={1500}>{content.services}</Link></Navbar.Toggle>
+                            <Navbar.Toggle><Link onClick={() => setExpanded(false)} to="drones" smooth={true} duration={1500}>{content.drones}</Link></Navbar.Toggle>
+                            <Navbar.Toggle><Link onClick={() => setExpanded(false)} to="about" smooth={true} duration={1500}>{content.about}</Link></Navbar.Toggle>
+                            <Navbar.Toggle><Link onClick={() => setExpanded(false)} to="contact" smooth={true} duration={1500}>{content.contact}</Link></Navbar.Toggle>
                             <select
                                 className="custom-select"
                                 value={props.language}
