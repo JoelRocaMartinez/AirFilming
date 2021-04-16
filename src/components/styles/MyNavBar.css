@@ -3,6 +3,18 @@
     background-color: rgb(15, 15, 15);  
 }
 
+@media (max-width: 991px){
+    #myNavBar .desktop-navbar{
+      display: none
+    }
+}
+
+@media (min-width: 991px){
+    #myNavBar .custom-select-responsive{
+      display: none
+    }
+}
+
 #myNavBar .desktop-navbar {
     width: 100%;
     justify-content: space-evenly;
@@ -17,16 +29,6 @@
 
 #myNavBar .airfilming:hover {
     cursor: pointer;
-}
-
-#myNavBar .links {
-    text-decoration: none;
-    color:grey;
-    cursor: pointer;
-}
-
-#myNavBar .links:hover, .links:active {
-    color: white;
 }
 
 #myNavBar .mr-auto {
@@ -64,6 +66,19 @@
 #myNavBar .custom-select:hover {
     cursor: pointer;
 }
+
+#myNavBar a{
+    color: grey;
+}
+
+#myNavBar a:hover{
+   cursor: pointer;
+   color: white;
+}
+
+
+
+
 
 
 

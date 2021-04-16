@@ -49,11 +49,28 @@ function MyNavBar(props) {
                 <Link className="airfilming" to="airfilming" smooth={true} duration={1500}>AIRFILMING</Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" >
+                        <Nav className="mr-auto">
+                            <Navbar.Toggle><Link to="services" smooth={true} duration={1500}>{content.services}</Link></Navbar.Toggle>
+                            <Navbar.Toggle><Link to="drones" smooth={true} duration={1500}>{content.drones}</Link></Navbar.Toggle>
+                            <Navbar.Toggle><Link to="about" smooth={true} duration={1500}>{content.about}</Link></Navbar.Toggle>
+                            <Navbar.Toggle><Link to="contact" smooth={true} duration={1500}>{content.contact}</Link></Navbar.Toggle>
+                            <select
+                                className="custom-select-responsive"
+                                value={props.language}
+                                onChange={e => props.handleSetLanguage(e.target.value)}
+                                >
+                                <option value="ES">ES</option>
+                                <option value="CA">CA</option>
+                                <option value="EN">EN</option>
+                                <option value="DE">DE</option>
+                            </select>
+                        </Nav>
+                    </Navbar.Collapse>
                         <Nav className="mr-auto desktop-navbar">
-                            <Nav.Link href="#services">{content.services}</Nav.Link>
-                            <Nav.Link href="#drones">{content.drones}</Nav.Link>
-                            <Nav.Link href="#about">{content.about}</Nav.Link>
-                            <Nav.Link href="#contact">{content.contact}</Nav.Link>
+                            <Link to="services" smooth={true} duration={1500}>{content.services}</Link>
+                            <Link to="drones" smooth={true} duration={1500}>{content.drones}</Link>
+                            <Link to="about" smooth={true} duration={1500}>{content.about}</Link>
+                            <Link to="contact" smooth={true} duration={1500}>{content.contact}</Link>
                             <select
                                 className="custom-select"
                                 value={props.language}
@@ -65,7 +82,6 @@ function MyNavBar(props) {
                                 <option value="DE">DE</option>
                             </select>
                         </Nav>
-                    </Navbar.Collapse>
             </Navbar> 
         </div>
     )   

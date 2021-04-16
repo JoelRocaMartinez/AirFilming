@@ -20,16 +20,16 @@ function App() {
 
   return (
     <div> 
-      <MyNavBar2 language={language}
-          handleSetLanguage = {language => {
-          setLanguage(language);
-          storeLanguageInLocalStorage(language);
-          }}/>
-      {/* <MyNavBar language={language}
+      {/* <MyNavBar2 language={language}
           handleSetLanguage = {language => {
           setLanguage(language);
           storeLanguageInLocalStorage(language);
           }}/> */}
+      <MyNavBar language={language}
+          handleSetLanguage = {language => {
+          setLanguage(language);
+          storeLanguageInLocalStorage(language);
+          }}/>
       <Airfilming/>
       <Services language={language}/>
       <Equipment language={language}/>
