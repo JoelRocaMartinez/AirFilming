@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./styles/MyNavBar.css";
 
 
+
 function MyNavBar(props) {
 
 
@@ -49,13 +50,13 @@ function MyNavBar(props) {
                 <Link className="airfilming" to="airfilming" smooth={true} duration={1500}>AIRFILMING</Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" >
-                        <Nav className="mr-auto">
+                        <Nav collapseOnSelect className="mr-auto responsive-navbar">
                             <Navbar.Toggle><Link to="services" smooth={true} duration={1500}>{content.services}</Link></Navbar.Toggle>
                             <Navbar.Toggle><Link to="drones" smooth={true} duration={1500}>{content.drones}</Link></Navbar.Toggle>
                             <Navbar.Toggle><Link to="about" smooth={true} duration={1500}>{content.about}</Link></Navbar.Toggle>
                             <Navbar.Toggle><Link to="contact" smooth={true} duration={1500}>{content.contact}</Link></Navbar.Toggle>
                             <select
-                                className="custom-select-responsive"
+                                className="custom-select"
                                 value={props.language}
                                 onChange={e => props.handleSetLanguage(e.target.value)}
                                 >
