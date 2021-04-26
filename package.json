@@ -16,7 +16,8 @@
     "react-router-hash-link": "^2.4.0",
     "react-scripts": "3.4.3",
     "react-scroll": "^1.8.2",
-    "react-share": "^4.2.1"
+    "react-share": "^4.2.1",
+    "three": "^0.127.0"
   },
   "scripts": {
     "start": "react-scripts start",

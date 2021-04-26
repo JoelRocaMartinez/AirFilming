@@ -44,6 +44,8 @@ function MyNavBar(props) {
     : props.language === "EN" ? (content = content.EN)
     : (content = content.ES);
 
+   
+
   
     return (
         <div>
