@@ -73,14 +73,14 @@ function About(props) {
 
              <div className="team">
                  <div className="player">
-                     <img src="./images/Bernat.jpg" alt="Bernat Sanz" />
+                     <img src="./images/Equipo/Bernat.jpg" alt="Bernat Sanz" />
                      <h3><strong>Bernat Martinez</strong></h3>
                      <p>{content.pilot1.description1}</p>
                      <p>{content.pilot1.description2}</p>
                  </div>
 
                  <div className="player">
-                     <img src="./images/Miguel.jpg" alt="Miguel de Arana" />
+                     <img src="./images/Equipo/Miguel.jpg" alt="Miguel de Arana" />
                      <h3><strong>Miguel de Arana</strong></h3>
                      <p>{content.pilot2.description1}</p>
                      <p>{content.pilot2.description2}</p>

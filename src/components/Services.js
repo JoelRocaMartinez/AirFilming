@@ -214,15 +214,43 @@ function Services(props) {
                                 <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="/images/Obras1.jpg"
+                                        src="/images/SeguimientoDeObras/Obras1.jpg"
                                         alt="obras_pic1"
                                         />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="/images/Obras2.jpg"
+                                        src="/images/SeguimientoDeObras/Obras2.jpg"
                                         alt="obras_pic2"
+                                        />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="/images/SeguimientoDeObras/Obras3.jpg"
+                                        alt="obras_pic3"
+                                        />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="/images/SeguimientoDeObras/Obras4.jpg"
+                                        alt="obras_pic4"
+                                        />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="/images/SeguimientoDeObras/Obras5.jpg"
+                                        alt="obras_pic5"
+                                        />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="/images/SeguimientoDeObras/Obras6.jpg"
+                                        alt="obras_pic6"
                                         />
                                 </Carousel.Item>
                             </Carousel>
@@ -237,22 +265,36 @@ function Services(props) {
                                 <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="/images/fotometria1.jpg"
+                                        src="/images/Fotogrametria/fotometria1.jpg"
                                         alt="fotometria_pic1"
                                         />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="/images/fotometria2.jpg"
+                                        src="/images/Fotogrametria/fotometria2.jpg"
                                         alt="fotometria_pic2"
                                         />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="/images/fotometria3.jpg"
+                                        src="/images/Fotogrametria/fotometria3.jpg"
                                         alt="fotometria_pic3"
+                                        />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="/images/Fotogrametria/fotometria4.jpg"
+                                        alt="fotometria_pic4"
+                                        />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="/images/Fotogrametria/fotometria5.jpg"
+                                        alt="fotometria_pic5"
                                         />
                                 </Carousel.Item>
                             </Carousel> 
@@ -289,22 +331,43 @@ function Services(props) {
                                 <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="/images/marketing1.jpg"
+                                        src="/images/MarketingEmpresarial/marketing1.jpg"
                                         alt="marketing_pic1"
                                         />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="/images/marketing2.jpg"
+                                        src="/images/MarketingEmpresarial/marketing2.jpg"
                                         alt="marketing_pic2"
                                         />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="/images/marketing3.jpg"
+                                        src="/images/MarketingEmpresarial/marketing3.jpg"
                                         alt="marketing_pic3"
+                                        />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="/images/MarketingEmpresarial/marketing4.jpg"
+                                        alt="marketing_pic4"
+                                        />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="/images/MarketingEmpresarial/marketing5.jpg"
+                                        alt="marketing_pic5"
+                                        />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="/images/MarketingEmpresarial/marketing6.jpg"
+                                        alt="marketing_pic6"
                                         />
                                 </Carousel.Item>
                             </Carousel> 

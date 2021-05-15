@@ -140,7 +140,7 @@ function Equipment(props) {
             <div className="sections">
                 <div className="section">
                     <p className="typePro"><strong>{content.drone1.title}</strong></p>
-                    <img src="./images/DJI_MAVIC_2_PRO.jpg" alt="DJI_Mavic_Pro" />
+                    <img src="./images/Drones/DJI_MAVIC_2_PRO.jpg" alt="DJI_Mavic_Pro" />
                     <div className="propertiesPro">
                         <p className="description">{content.drone1.description1}</p>
                         <p className="description">{content.drone1.description2}</p>
@@ -150,7 +150,7 @@ function Equipment(props) {
 
                 <div className="section">
                     <p className="typeMini"><strong>{content.drone2.title}</strong></p>
-                    <img src="./images/DJI_MAVIC_Mini.jpg" alt="DJI_Mavic_Mini" />
+                    <img src="./images/Drones/DJI_MAVIC_Mini.jpg" alt="DJI_Mavic_Mini" />
                     <div className="propertiesMini">
                         <p className="description">{content.drone2.description1}</p>
                         <p className="description">{content.drone2.description2}</p>
@@ -160,7 +160,7 @@ function Equipment(props) {
 
                 <div className="section">
                     <p className="typeFpv"><strong>{content.drone3.title}</strong></p>
-                    <img src="./images/CineWhoop_FPV.jpg" alt="Megabee" /> 
+                    <img src="./images/Drones/CineWhoop_FPV.jpg" alt="Megabee" /> 
                     <div className="propertiesFpv">
                         <p className="description">{content.drone3.description1}</p>
                         <p className="description">{content.drone3.description2}</p>
@@ -170,7 +170,7 @@ function Equipment(props) {
 
                 <div className="section">
                     <p className="typePro"><strong>{content.drone4.title}</strong></p>
-                    <img src="./images/Armattan_Chameleon.png" alt="Armattan_Chameleon" /> 
+                    <img src="./images/Drones/Armattan_Chameleon.png" alt="Armattan_Chameleon" /> 
                     <div className="propertiesPro">
                         <p className="description">{content.drone4.description1}</p>
                         <p className="description">{content.drone4.description2}</p>
