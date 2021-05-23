@@ -214,20 +214,6 @@ function Services(props) {
                                 <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="/images/SeguimientoDeObras/Obras1.jpg"
-                                        alt="obras_pic1"
-                                        />
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                        <img
-                                        className="d-block w-100"
-                                        src="/images/SeguimientoDeObras/Obras2.jpg"
-                                        alt="obras_pic2"
-                                        />
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                        <img
-                                        className="d-block w-100"
                                         src="/images/SeguimientoDeObras/Obras3.jpg"
                                         alt="obras_pic3"
                                         />
